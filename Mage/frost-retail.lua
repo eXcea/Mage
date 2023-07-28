@@ -112,6 +112,7 @@ awful.Populate({
     coneOfCold = NewSpell(120, { damage = "magic", targeted = true, ignoreMoving = true }),
     frostBomb = NewSpell(390612, { damage = "magic", targeted = true, ignoreMoving = false }),
     rayoffrost = NewSpell(205021, { damage = "magic", targeted = true, ignoreMoving = true }),
+    icewall = NewSpell(352278, { damage = "magic", targeted = true, ignoreMoving = false }),
 
     --## RACIALS ##--
     quakingPalm = NewSpell(107079, { effect = "physical", cc = "incapacitate", targeted = true, ignoreMoving = true, }),
