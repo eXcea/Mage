@@ -866,6 +866,13 @@ frost:Init(function()
             end
         end
 
+        -- rayOfFrost
+        if not player.lockouts.frost and not player.moving then
+            if rayOfFrost:Castable(target) and target.hp <= 40 then
+                rayOfFrost:Cast(target)
+            end
+        end
+
         --frostBolt
         if not player.lockouts.frost and not player.moving then
             if frostBolt:Castable(target) then
