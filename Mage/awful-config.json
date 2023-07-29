@@ -1,6 +1,5 @@
 {
     "load": [
-        "awful.lua",
         "GUI-mage.lua",
         "arcane-retail.lua",
         "fire-retail.lua",
