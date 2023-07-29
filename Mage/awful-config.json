@@ -1,9 +1,9 @@
 {
     "load": [
         "awful.lua",
-        "mage/GUI-mage.lua",
-        "mage/arcane-retail.lua",
-        "mage/fire-retail.lua",
-        "mage/frost-retail.lua"
+        "GUI-mage.lua",
+        "arcane-retail.lua",
+        "fire-retail.lua",
+        "frost-retail.lua"
     ]
 }
