@@ -4,6 +4,6 @@
         "mage/GUI-mage.lua",
         "mage/arcane-retail.lua",
         "mage/fire-retail.lua",
-        "mage/frost-retail.lua",
+        "mage/frost-retail.lua"
     ]
 }
